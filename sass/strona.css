@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 3122px;
+  width: 1920px;
+  background-image: linear-gradient(#F5F7FA, #B8C6DB);
+}
+
+header {
+  height: 83px;
+  width: 1920px;
+}/*# sourceMappingURL=strona.css.map */

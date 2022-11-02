@@ -1,4 +1,75 @@
-*{
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?6rhmas');
+    src:  url('../fonts/icomoon.eot?6rhmas#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?6rhmas') format('truetype'),
+      url('../fonts/icomoon.woff?6rhmas') format('woff'),
+      url('../fonts/icomoon.svg?6rhmas#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    // speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-dostepnosc:before {
+    content: "\e900";
+  }
+  .icon-kontakt:before {
+    content: "\e901";
+  }
+  .icon-ulubione:before {
+    content: "\e902";
+  }
+  .icon-profil:before {
+    content: "\e903";
+  }
+  .icon-wikszo:before {
+    content: "\e904";
+  }
+  .icon-mniejszo:before {
+    content: "\e905";
+  }
+  .icon-koszyk:before {
+    content: "\e906";
+  }
+  .icon-play:before {
+    content: "\e907";
+  }
+  .icon-widok_01:before {
+    content: "\e908";
+  }
+  .icon-widok_02:before {
+    content: "\e909";
+  }
+  .icon-wysylka:before {
+    content: "\e90a";
+  }
+  .icon-x:before {
+    content: "\e90b";
+  }
+
+  @font-face {
+    font-family: Metropolis;
+    src: url(../fonts/Metropolis-Bold.otf);
+  }
+
+
+
+  *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,15 +78,43 @@ body{
 
     height: 3122px;
     width: 1920px;
-    background-image: linear-gradient(#F5F7FA, #B8C6DB);
+    background-color: #fff;
+    
    
 }
 header{
-    height: 83px;
-    width: 1920px;
-    .contact_btn{
-     background-color: none;
-    border-style: none;
-    }
+    position: relative;
+    font-family: Metropolis;
+    height: 140px;
+    width: 1920px; 
+    background-color: #333;
+    
+    .icons{
+        position: absolute;
+        display:inline-block;
+        left: 1000px;
+        top: 70px;
+        color: black; 
+        font-family: "Metropolis";
+        text-decoration: none;}
 
-}
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    img {
+        width: 450px;
+        padding: 20px;
+    }
+    .basket-squere{
+        display: inline-block;
+        position:absolute;
+        left: 1500px;
+        top: 70px;
+        cursor: pointer;
+    }
+    .basket_icon{
+        display: inline-block;
+    }
+   
+ }

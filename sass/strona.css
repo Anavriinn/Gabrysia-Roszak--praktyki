@@ -78,42 +78,161 @@
 }
 
 body {
-  height: 3122px;
-  width: 1920px;
+  height: 100%;
+  width: 100%;
   background-color: #fff;
 }
 
 header {
   position: relative;
-  font-family: Metropolis;
+  font-family: "Metropolis";
   height: 140px;
   width: 1920px;
-  background-color: #333;
+  background-color: white;
+  border-bottom: 1px solid #E1E2E8;
 }
-header .icons {
+header .link_contact {
   position: absolute;
-  display: inline-block;
-  left: 1000px;
-  top: 70px;
-  color: black;
-  font-family: "Metropolis";
+  left: 950px;
+  top: 40px;
   text-decoration: none;
+  color: #000;
 }
-header a {
+header .icon-kontakt {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 40px;
+  padding: 5px;
+}
+header .Contcat {
+  position: absolute;
+  top: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+header .link_fav {
+  position: absolute;
+  left: 1150px;
+  top: 40px;
+  text-decoration: none;
+  color: #000;
+}
+header .icon-ulubione {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 40px;
+  padding: 5px;
+}
+header .Fav {
+  position: absolute;
+  top: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+header .link_profil {
+  position: absolute;
+  left: 1350px;
+  top: 40px;
   text-decoration: none;
   color: black;
 }
-header img {
-  width: 450px;
-  padding: 20px;
+header .icon-profil {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 40px;
+  padding: 5px;
+}
+header .Profil {
+  position: absolute;
+  top: 20px;
+  width: 200px;
+  font-size: 20px;
 }
 header .basket-squere {
-  display: inline-block;
   position: absolute;
-  left: 1500px;
-  top: 70px;
-  cursor: pointer;
+  left: 1800px;
+  top: 40px;
+  display: flex;
+  justify-content: right;
 }
-header .basket_icon {
+header .basket-squere .text_basket {
+  position: absolute;
+  left: 90px;
+  top: 18px;
   display: inline-block;
+  font-size: 20px;
+}
+header .basket-squere .icon-koszyk {
+  position: absolute;
+  left: 25px;
+  top: 5px;
+}
+header .basket-squere .basket {
+  position: absolute;
+  display: inline-block;
+  font-size: 40px;
+  border: 1px solid #E1E2E8;
+  width: 300px;
+  height: 55px;
+}
+header .basket-squere .arowr {
+  position: relative;
+  background-color: #9BCB3B;
+  width: 35px;
+  height: 55px;
+}
+header .basket-squere .arowr .icon-wikszo {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  font-family: "Metropolis";
+  text-transform: uppercase;
+  border-bottom: 1px solid #E1E2E8;
+  width: 1920px;
+  height: 57px;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .tab {
+  display: flex;
+  flex-direction: row;
+}
+nav .tab1 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+nav .tab2 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+nav .tab3 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+nav .tab4 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+nav .tab5 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+nav .tab6 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
 }/*# sourceMappingURL=strona.css.map */

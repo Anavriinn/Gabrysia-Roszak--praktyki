@@ -91,12 +91,17 @@ header{
     border-bottom: 1px solid #E1E2E8;
    .link_contact{
     position: absolute;
-    left: 950px;
-    top:40px;
+    left: 50%;
+    top:30%;
     text-decoration: none;
     color: #000;
-    
-
+  }
+  .logo {
+    position: absolute;
+    left:1%;
+    top: 20%;
+    height: 70px;
+    width: 230px;
    }
    .icon-kontakt {
     position: absolute;
@@ -212,15 +217,15 @@ header{
   .tab{
     display: flex;
     flex-direction: row;
+    
    
   }
   .tab1{
     display: flex;
     flex-direction: row;
     padding: 40px;
-    
-    
   }
+
   .tab2{
    
     display: flex;
@@ -251,4 +256,147 @@ header{
     padding: 40px;
     
   }
+  .link{
+    text-decoration: none;
+    color: #000;
+  }
+  
+ }
+ main{
+  position: relative;
+  height: 1060px;
+  width: 1920px;
+  background-color: #F2F3F4;
+
+.showroom{
+background-image: url(../photos/img_01.jpg);
+position: absolute;
+left: 1% ;
+top:2%;
+height: 595px;
+width: 1860px;
+}
+.arrow_left{
+  position: absolute;
+  top:42%;
+  left:0%;
+  background-color: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+.arrow_right{
+  position: absolute;
+  top:42%;
+  right:.0%;
+  background-color: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+.more_btn{
+  position: absolute;
+  top: 66%;
+  left: 7%;
+  background-color:#F74137;
+  height: 55px;
+  width: 210px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1%;
+  border: none;
+}
+.headline{
+  position: absolute;
+  top:28% ;
+  left: 7%;
+  color: #fff;
+  font-size: 44px;
+
+}
+.subheading{
+  position: absolute;
+  left: 6.8%;
+  top: 36%;
+  color: #fff;
+  font-size: 44px;
+}
+.text_headline{
+  position: absolute;
+  top: 48%;
+  left: 7%;
+  color: #fff;
+  font-size: 22px;
+  width: 370px;
+
+}
+.tile1{
+  position: absolute;
+  top: 60%;
+  left: 1%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_02.jpg);
+}
+.tile2{
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_03.jpg);
+}
+.tile3{
+  position: absolute;
+  top: 60%;
+  left: 66.7%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_05.jpg);
+}
+.tile1_text1,.tile1_text2,.tile2_text1,.tile2_text2,.tile3_text1,.tile3_text2{
+  color: #fff;
+  font-size: 44px;
+}
+.tile1_text1,.tile2_text1,.tile3_text1{
+  position: absolute;
+  left: 8%;
+  top: 29%;
+}
+.tile1_text2,.tile2_text2,.tile3_text2{
+  position: absolute;
+  top: 42%;
+  left: 8%;
+}
+
+
+
+
+.more_btn2{
+  position: absolute;
+  top: 66%;
+  left: 7%;
+  background-color:rgba($color: #000000, $alpha: 0);
+  height: 55px;
+  width: 210px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1%;
+  border: 1px solid white;
+}
+
+} 
+
+ 
+
+
+
+
+
+
+
+
+
+ @media (max-width) {
+
  }

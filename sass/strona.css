@@ -93,10 +93,17 @@ header {
 }
 header .link_contact {
   position: absolute;
-  left: 950px;
-  top: 40px;
+  left: 50%;
+  top: 30%;
   text-decoration: none;
   color: #000;
+}
+header .logo {
+  position: absolute;
+  left: 1%;
+  top: 20%;
+  height: 70px;
+  width: 230px;
 }
 header .icon-kontakt {
   position: absolute;
@@ -235,4 +242,125 @@ nav .tab6 {
   display: flex;
   flex-direction: row;
   padding: 40px;
+}
+nav .link {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  position: relative;
+  height: 1060px;
+  width: 1920px;
+  background-color: #F2F3F4;
+}
+main .showroom {
+  background-image: url(../photos/img_01.jpg);
+  position: absolute;
+  left: 1%;
+  top: 2%;
+  height: 595px;
+  width: 1860px;
+}
+main .arrow_left {
+  position: absolute;
+  top: 42%;
+  left: 0%;
+  background-color: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+main .arrow_right {
+  position: absolute;
+  top: 42%;
+  right: 0%;
+  background-color: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+main .more_btn {
+  position: absolute;
+  top: 66%;
+  left: 7%;
+  background-color: #F74137;
+  height: 55px;
+  width: 210px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1%;
+  border: none;
+}
+main .headline {
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  color: #fff;
+  font-size: 44px;
+}
+main .subheading {
+  position: absolute;
+  left: 6.8%;
+  top: 36%;
+  color: #fff;
+  font-size: 44px;
+}
+main .text_headline {
+  position: absolute;
+  top: 48%;
+  left: 7%;
+  color: #fff;
+  font-size: 22px;
+  width: 370px;
+}
+main .tile1 {
+  position: absolute;
+  top: 60%;
+  left: 1%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_02.jpg);
+}
+main .tile2 {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_03.jpg);
+}
+main .tile3 {
+  position: absolute;
+  top: 60%;
+  left: 66.7%;
+  width: 600px;
+  height: 400px;
+  background-image: url(../photos/img_05.jpg);
+}
+main .tile1_text1, main .tile1_text2, main .tile2_text1, main .tile2_text2, main .tile3_text1, main .tile3_text2 {
+  color: #fff;
+  font-size: 44px;
+}
+main .tile1_text1, main .tile2_text1, main .tile3_text1 {
+  position: absolute;
+  left: 8%;
+  top: 29%;
+}
+main .tile1_text2, main .tile2_text2, main .tile3_text2 {
+  position: absolute;
+  top: 42%;
+  left: 8%;
+}
+main .more_btn2 {
+  position: absolute;
+  top: 66%;
+  left: 7%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 55px;
+  width: 210px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1%;
+  border: 1px solid white;
 }/*# sourceMappingURL=strona.css.map */
